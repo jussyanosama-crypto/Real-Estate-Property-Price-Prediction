@@ -62,8 +62,7 @@ The data is NYC-specific, time-limited, and based on recorded sale prices rather
 
 ```text
 .
-├── data/
-│   └── nyc_citywide_rolling_sales.csv
+├── nyc_citywide_rolling_sales.csv
 ├── real_estate_property_price_prediction.ipynb
 ├── README.md
 ├── requirements.txt
