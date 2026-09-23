@@ -79,11 +79,11 @@ python -m pip install -r requirements.txt
 python download_data.py
 ```
 
-Then open `real_estate_property_price_prediction.ipynb` and run all cells. The notebook is self-contained: it loads `data/nyc_citywide_rolling_sales.csv` directly and contains its own fallback download logic if the file is missing. The rolling source may change after a future download, so the notebook prints the actual snapshot date range and row count.
+Then open `real_estate_property_price_prediction.ipynb` and run all cells. The notebook is self-contained: it loads `nyc_citywide_rolling_sales.csv` directly and contains its own fallback download logic if the file is missing. The rolling source may change after a future download, so the notebook prints the actual snapshot date range and row count.
 
 ## Files
 
 - `real_estate_property_price_prediction.ipynb` — complete analysis and modeling workflow.
-- `data/nyc_citywide_rolling_sales.csv` — source snapshot used for the verified run.
+- `nyc_citywide_rolling_sales.csv` — source snapshot used for the verified run.
 - `download_data.py` — simple relative-path download script.
 - `requirements.txt` — packages used by the notebook and download script.
